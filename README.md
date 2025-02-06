@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Lama Dev School Management Dashboard
 
 ## Getting Started
@@ -24,3 +25,6 @@ To learn more about Next.js, take a look at the following resources:
 
 - [Lama Dev Youtube Channel](https://youtube.com/lamadev) 
 - [Next.js](https://nextjs.org/learn)
+=======
+# Coordinanet-v3
+>>>>>>> e0cd7d78889f0bc6831100d8f4479c557315a7f1
