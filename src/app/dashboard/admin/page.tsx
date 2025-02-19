@@ -1,5 +1,8 @@
+import Announcements from "@/app/components/Announcements";
 import AttendanceChart from "@/app/components/AttendanceChart";
 import CountChart from "@/app/components/CountChart";
+import EventCalendar from "@/app/components/EventCalendar";
+import FinanceChart from "@/app/components/FinanceChart";
 import UserCard from "@/app/components/UserCard";
 
 const AdminPage = () => {
@@ -21,16 +24,19 @@ const AdminPage = () => {
           </div>
           {/*Attendance chart*/}
           <div className="w-full lg:w-2/3 h-[450px]">
-          <AttendanceChart/>
+            <AttendanceChart />
           </div>
         </div>
         {/*Bottom Chart*/}
-        <div className="w-full h-[450px] ">
-
+        <div className="w-full h-[500px] ">
+          <FinanceChart />
         </div>
       </div>
       {/* RIGHT */}
-      <div className="w-full lg:w-1/3">r</div>
+      <div className="w-full lg:w-1/3 flex flex-col gap-8">
+          <EventCalendar />
+          <Announcements />
+      </div>
     </div>
   );
 };
